@@ -161,6 +161,63 @@
     <a href="#">READ OUR BLOG <i class="fa-solid fa-arrow-right"></i></a>
   </div>
 
+  <!-- Main 3rd Part -->
+  <div class="forum">
+    <p id="eget">PHASELLUS EGET METUS</p>
+    <strong>Forum Sections</strong>
+    <hr>
+    <!-- REMEMBER: Try to change che hr with the border-bottom: 1px solid orange; -->
+
+    <div class="sections">
+      <div class="first_sections">
+        <div class="sections_card">
+          <i class="fa-solid fa-file-lines"></i>
+          <strong>News & Community</strong>
+        </div>
+
+        <div class="sections_card">
+          <i class="fa-brands fa-apple"></i>
+          <strong>Apple Forum</strong>
+        </div>
+
+        <div class="sections_card">
+          <i class="fa-brands fa-windows"></i>
+          <strong>Microsoft Forum</strong>
+        </div>
+
+        <div class="sections_card">
+          <i class="fa-brands fa-android"></i>
+          <strong>Android Forum</strong>
+        </div>
+      </div>
+
+      <div class="second_sections">
+        <div class="sections_card">
+          <i class="fa-solid fa-mug-saucer"></i>
+          <strong>General Discussion</strong>
+        </div>
+
+        <div class="sections_card">
+          <i class="fa-solid fa-cubes"></i>
+          <strong>Apps & Software</strong>
+        </div>
+
+        <div class="sections_card">
+          <i class="fa-solid fa-laptop"></i>
+          <strong>Gadgets & Stuff</strong>
+        </div>
+
+        <div class="sections_card">
+          <i class="fa-solid fa-wrench"></i>
+          <strong>Tutorials & Guides</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog_forum">
+    <a href="#">READ OUR FORUM <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
 </template>
 
 <style>
@@ -265,17 +322,12 @@
 
 /* Main 2nd Section */
 .latest_news {
-  padding: 5rem;
+  padding: 3rem;
   text-align: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-
-  #eget {
-    color: var(--bool-first-section-title);
-    font-size: 13px;
-  }
+  gap: 1.5rem;
 
   #latest_title {
     font-size: 30px;
@@ -303,6 +355,12 @@
     }
 
   }
+}
+
+#eget {
+  /* color: var(--bool-first-section-title); */
+  color: black;
+  font-size: 13px;
 }
 
 hr {
@@ -407,6 +465,58 @@ p {
   display: flex;
   align-items: center;
   margin-top: 5rem;
+  height: 75px;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+
+  a {
+    text-decoration: none;
+    color: var(--bool-white);
+  }
+}
+
+.forum {
+  background-color: var(--bool-text-primary);
+  padding: 3rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+}
+
+
+.first_sections,
+.second_sections {
+  gap: 2rem;
+  display: flex;
+  margin-bottom: 2rem;
+
+  .sections_card {
+    height: 120px;
+    width: 150px;
+    border-top: 2px solid #28AFC3;
+    background-color: var(--bool-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    i {
+      /* color: var(--bool-white); */
+      font-size: 25px;
+      border: 1px solid orange;
+      border-radius: 50%;
+    }
+  }
+}
+
+.blog_forum {
+  display: flex;
+  align-items: center;
   height: 75px;
   justify-content: center;
   text-align: center;
