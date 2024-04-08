@@ -70,7 +70,16 @@
         <p class="date_comments">October 11th, 2015 | Comments Off</p>
         <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
       </div>
-    </div>  
+    </div>
+
+    <div class="featured_article">
+      <div class="featured_text">
+        <p>FEATURED ARTICLE</p>
+        <strong>Cras malesuada et orci eget pharetra</strong>
+        <p>In quis lectus sed leo elementum facibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum sadips ets ipsums dolores ficilis uns leo lectus.</p>
+        <button class="read_more" type="button">READ MORE ></button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -205,7 +214,6 @@
   
       .date_comments{
         color: var(--bool-first-section-text);
-        
         strong{
           color: black;
         }
@@ -218,6 +226,38 @@
       }
     }
 
+  }
+}
+
+.featured_article{
+  background-image: url("../src/assets/img/featured_article_1_bg.jpg");
+  background-size: 100%;
+  max-width: 1040px;
+  height: 500px;
+
+  .featured_text{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 13rem 5rem; 
+
+    p{
+      color: white;
+      text-align: left;
+    }
+  
+    strong{
+      color: var(--bool-white);
+      font-size: 25px;
+    }
+  
+    .read_more{
+      background-color: var(--bool-text-btn);
+      color: var(--bool-white);
+      border: none;
+      padding: 1rem;
+    }
   }
 }
 </style>
