@@ -226,6 +226,14 @@
       <button class="get_sign" type="button">SIGN UP ></button>
     </div>
   </div>
+
+  <div class="newsletter">
+    <p>Subscribe to uor Newsletter</p>
+    <div class="newsletter_utilities">
+      <input type="text" placeholder="Insert your email*">
+      <button type="button">SEND</button>
+    </div>
+  </div>
 </template>
 
 <style>
@@ -562,5 +570,41 @@ p {
       text-align: center;
     }
   }
+}
+
+.newsletter {
+  background-color: var(--bool-text-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  height: 150px;
+
+  p {
+    margin-top: 2rem;
+    color: black;
+    font-size: 20px;
+  }
+
+  .newsletter_utilities {
+    display: flex;
+    gap: 1rem;
+
+    input {
+      height: 25px;
+      width: 400px;
+    }
+
+    button {
+      width: 150px;
+      padding: 0.5rem;
+      background-color: black;
+      color: var(--bool-white);
+      border: none;
+    }
+
+  }
+
+
 }
 </style>
