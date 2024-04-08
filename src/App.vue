@@ -47,7 +47,6 @@
   <div class="latest_news">
     <p id="eget">PHASELLUS EGET METUS</p>
     <strong id="latest_title">All the latest news</strong>
-    <hr>
 
     <div class="card">
       <div class="first">
@@ -60,7 +59,7 @@
 
       <div class="second">
         <img class="second_img" src="/src/assets/img/post_feat_img_24-320x202.jpg" alt="">
-        <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <strong class="img_title">Vivamus pellenteque, felis quis varius</strong>
         <p class="date_comments">October 11th, 2015 | Comments Off</p>
         <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
           vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
@@ -68,13 +67,14 @@
 
       <div class="third">
         <img class="third" src="/src/assets/img/post_feat_img_23-320x202.jpg" alt="">
-        <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <strong class="img_title">Donec ornare pretium eget scelisque justo</strong>
         <p class="date_comments">October 11th, 2015 | Comments Off</p>
         <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
           vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
       </div>
     </div>
 
+    <!-- Featured Article Section -->
     <div class="featured_article">
       <div class="featured_text">
         <p>FEATURED ARTICLE</p>
@@ -85,35 +85,37 @@
       </div>
     </div>
 
-    <div class="card">
-      <div class="first">
-        <img class="first_img" src="/src/assets/img/post_feat_img_22-320x202.jpg" alt="">
-        <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
-        <p class="date_comments">October 11th, 2015 | Comments Off</p>
-        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
-          vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-      </div>
+    <div class="card_container">
+      <div class="card">
+        <div class="first">
+          <img class="first_img" src="/src/assets/img/post_feat_img_22-320x202.jpg" alt="">
+          <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+          <p class="date_comments">October 11th, 2015 | Comments Off</p>
+          <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
+            vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+        </div>
 
-      <div class="second">
-        <img class="second_img" src="/src/assets/img/post_feat_img_21-320x202.jpg" alt="">
-        <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
-        <p class="date_comments">October 11th, 2015 | Comments Off</p>
-        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
-          vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-      </div>
+        <div class="second">
+          <img class="second_img" src="/src/assets/img/post_feat_img_21-320x202.jpg" alt="">
+          <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+          <p class="date_comments">October 11th, 2015 | Comments Off</p>
+          <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
+            vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+        </div>
 
-      <div class="third">
-        <img class="third" src="/src/assets/img/post_feat_img_20-320x202.jpg" alt="">
-        <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
-        <p class="date_comments">October 11th, 2015 | Comments Off</p>
-        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
-          vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+        <div class="third">
+          <img class="third_img" src="/src/assets/img/post_feat_img_20-320x202.jpg" alt="">
+          <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+          <p class="date_comments">October 11th, 2015 | Comments Off</p>
+          <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
+            vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+        </div>
       </div>
-
     </div>
 
   </div>
 
+  <!-- Reviewed Section -->
   <div class="reviewed">
     <div class="reviewed_product">
       <div class="reviewed_text">
@@ -126,6 +128,7 @@
 
     </div>
 
+    <!-- Tutorial Section -->
     <div class="tutorial">
       <strong>Tutorials & Guides</strong>
       <hr>
@@ -156,6 +159,7 @@
     </div>
   </div>
 
+  <!-- Blog Section -->
   <div class="blog">
     <a href="#">READ OUR BLOG <i class="fa-solid fa-arrow-right"></i></a>
   </div>
@@ -164,8 +168,6 @@
   <div class="forum">
     <p id="eget">PHASELLUS EGET METUS</p>
     <strong>Forum Sections</strong>
-    <hr>
-    <!-- REMEMBER: Try to change che hr with the border-bottom: 1px solid orange; -->
 
     <div class="sections">
       <div class="first_sections">
@@ -214,10 +216,12 @@
     </div>
   </div>
 
+  <!-- Forum Section -->
   <div class="blog_forum">
     <a href="#">READ OUR FORUM <i class="fa-solid fa-arrow-right"></i></a>
   </div>
 
+  <!-- Footer Section -->
   <div class="footer">
     <div class="footer_text">
       <strong>Hey! Join to our Community</strong>
@@ -227,6 +231,7 @@
     </div>
   </div>
 
+  <!-- Newsletter Section -->
   <div class="newsletter">
     <p>Subscribe to uor Newsletter</p>
     <div class="newsletter_utilities">
@@ -235,6 +240,7 @@
     </div>
   </div>
 
+  <!-- About Section -->
   <div class="about">
     <div class="container">
       <div class="about_section">
@@ -269,9 +275,9 @@
     </div>
   </div>
   <br>
-
   <hr>
 
+  <!-- Copyright Section -->
   <div class="copy">
     <p><i class="fa-regular fa-copyright"></i> Copyright 2012 - 2020 | Avada Theme by <strong>Theme Fusion</strong> |
       All Rights Reserved | Powered by <strong>WordPress</strong></p>
@@ -396,6 +402,11 @@
 
   #latest_title {
     font-size: 30px;
+    border-bottom: 3px solid orange;
+  }
+
+  .card_container {
+    padding-top: 2rem;
   }
 
   .card {
@@ -403,10 +414,12 @@
     display: flex;
     justify-content: center;
     gap: 2rem;
+    padding-bottom: 2rem;
 
     .first,
     .second,
     .third {
+      /* padding-top: 2rem; */
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -428,10 +441,6 @@
   font-size: 13px;
 }
 
-hr {
-  color: orange;
-  width: 50px;
-}
 
 .date_comments {
   color: var(--bool-first-section-text);
@@ -441,6 +450,7 @@ hr {
   }
 }
 
+/* Featured Article Section */
 .featured_article {
   background-image: url("../src/assets/img/featured_article_1_bg.jpg");
   background-size: 100%;
@@ -474,6 +484,7 @@ p {
   padding: 1rem;
 }
 
+/* Reviewed Section */
 .reviewed {
   display: flex;
   gap: 3rem;
@@ -500,6 +511,7 @@ p {
   }
 }
 
+/* Tutorial Section */
 .tutorial {
 
   display: flex;
@@ -526,6 +538,7 @@ p {
   }
 }
 
+/* Blog Section */
 .blog {
   display: flex;
   align-items: center;
@@ -551,6 +564,9 @@ p {
   flex-direction: column;
   gap: 1.5rem;
 
+  strong {
+    border-bottom: 3px solid orange;
+  }
 }
 
 
@@ -577,9 +593,14 @@ p {
       border: 1px solid orange;
       border-radius: 50%;
     }
+
+    strong {
+      border: none;
+    }
   }
 }
 
+/* Forum Section */
 .blog_forum {
   display: flex;
   align-items: center;
@@ -594,6 +615,7 @@ p {
   }
 }
 
+/* Footer Section */
 .footer {
   background-image: url("../src/assets/img/join_now_cta_bg.jpg");
   background-size: 100%;
@@ -620,6 +642,7 @@ p {
   }
 }
 
+/* Newsletter Section */
 .newsletter {
   background-color: var(--bool-text-primary);
   display: flex;
@@ -656,6 +679,7 @@ p {
 
 }
 
+/* About Section */
 .about {
   .container {
     margin-top: 5rem;
@@ -669,6 +693,7 @@ p {
       flex-direction: column;
       gap: 1rem;
       width: 250px;
+      padding-bottom: 2rem;
 
       p {
         color: black;
@@ -679,6 +704,7 @@ p {
   }
 }
 
+/* Copyright Section */
 .copy {
   margin-top: 2rem;
   margin-left: 15rem;
