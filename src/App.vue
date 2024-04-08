@@ -53,27 +53,25 @@
       <div class="first">
         <img class="first_img" src="/src/assets/img/post_feat_img_25-320x202.jpg" alt="">
         <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
-        <p class="date_comments">October 11th, 2015 | 2 Comments</p>
-        <!-- <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p> -->
+        <p class="date_comments">October 11th, 2015 | <strong>2 Comments</strong></p>
+        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
       </div>
 
       <div class="second">
         <img class="second_img" src="/src/assets/img/post_feat_img_24-320x202.jpg" alt="">
         <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
         <p class="date_comments">October 11th, 2015 | Comments Off</p>
-        <!-- <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p> -->
+        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
       </div>
 
       <div class="third">
         <img class="third" src="/src/assets/img/post_feat_img_23-320x202.jpg" alt="">
         <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
         <p class="date_comments">October 11th, 2015 | Comments Off</p>
-        <!-- <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p> -->
+        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
       </div>
-    </div>
+    </div>  
   </div>
-
-
 </template>
 
 <style>
@@ -147,12 +145,13 @@
 }
 
 #main_container{
-  height: 200px;
+  height: 250px;
   background-color: var(--bool-text-primary);
 
   #main_text{
     padding: 5rem;
     text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -163,7 +162,7 @@
 
     #title_text{
       color: var(--bool-first-section-text);
-      text-wrap: balance;
+      width: 380px;
     }
     
   }
@@ -204,8 +203,18 @@
       align-items: flex-start;
       gap: 0.5rem;
   
+      .date_comments{
+        color: var(--bool-first-section-text);
+        
+        strong{
+          color: black;
+        }
+      }
+
       .img_text{
-        text-wrap: wrap;
+        text-align: left;
+        width: 320px;
+        color: var(--bool-first-section-text);
       }
     }
 
