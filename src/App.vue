@@ -7,7 +7,6 @@
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-
   <!-- Header Section -->
   <!-- REMEMBER: Add the < /> for the Header, the Main and the Footer -->
   <div class="header">
@@ -218,6 +217,15 @@
   <div class="blog_forum">
     <a href="#">READ OUR FORUM <i class="fa-solid fa-arrow-right"></i></a>
   </div>
+
+  <div class="footer">
+    <div class="footer_text">
+      <strong>Hey! Join to our Community</strong>
+      <p>Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus. Curabitur feugiat volputate parus ipsum
+        dolores ficilis uns etra.</p>
+      <button class="get_sign" type="button">SIGN UP ></button>
+    </div>
+  </div>
 </template>
 
 <style>
@@ -285,15 +293,16 @@
         font-size: 100px;
       }
 
-      .get_sign {
-        width: 150px;
-        padding: 0.5rem;
-        background-color: var(--bool-bg-header);
-        color: var(--bool-white);
-        border: none;
-      }
     }
   }
+}
+
+.get_sign {
+  width: 150px;
+  padding: 0.5rem;
+  background-color: var(--bool-bg-header);
+  color: var(--bool-white);
+  border: none;
 }
 
 #main_container {
@@ -476,6 +485,7 @@ p {
   }
 }
 
+/* 3rd Main Section */
 .forum {
   background-color: var(--bool-text-primary);
   padding: 3rem;
@@ -525,6 +535,32 @@ p {
   a {
     text-decoration: none;
     color: var(--bool-white);
+  }
+}
+
+.footer {
+  background-image: url("../src/assets/img/join_now_cta_bg.jpg");
+  background-size: 100%;
+  height: 550px;
+
+  .footer_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+    gap: 2rem;
+
+    strong {
+      color: var(--bool-white);
+      font-size: 35px;
+      width: 250px;
+      text-align: center;
+    }
+
+    p {
+      width: 550px;
+      text-align: center;
+    }
   }
 }
 </style>
