@@ -14,12 +14,12 @@
     <img class="logo" src="/src/assets/img/logo.png" alt="">
 
     <div class="utilities">
-      <p>Home</p>
-      <p>Apple</p>
-      <p>Microsoft</p>
-      <p>Android</p>
-      <p>Forums</p>
-      <p>Contact Us</p>
+      <a href="#">Home</a>
+      <a href="#">Apple</a>
+      <a href="#">Microsoft</a>
+      <a href="#">Android</a>
+      <a href="#">Forums</a>
+      <a href="#">Contact Us</a>
       <button class="header_btn" type="button">Join Us</button>
       <i class="fa-solid fa-magnifying-glass"></i>
     </div>
@@ -31,7 +31,7 @@
       <div class="main_text">
         <h2>Tech Forum!</h2>
         <p>Discuss all the latest technology news and trands</p>
-        <button class="get_sign" type="button">GET AVADA NOW! ></button> 
+        <button class="get_sign" type="button">GET AVADA NOW! ></button>
       </div>
     </div>
   </div>
@@ -39,7 +39,8 @@
   <div id="main_container">
     <div id="main_text">
       <h4>AVADA FORUM IS THE PLACE TO BE</h4>
-      <p id="title_text">In quis lectus leo elementum faucibus in depibus dictum. Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus, dolor at, bibendum purus. Donec vehicula nec tortor ac finibus.</p>
+      <p id="title_text">In quis lectus leo elementum faucibus in depibus dictum. Nulla molestie tortor nec lectus
+        venenatis, sed blandit dui finibus, dolor at, bibendum purus. Donec vehicula nec tortor ac finibus.</p>
     </div>
   </div>
 
@@ -54,21 +55,24 @@
         <img class="first_img" src="/src/assets/img/post_feat_img_25-320x202.jpg" alt="">
         <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
         <p class="date_comments">October 11th, 2015 | <strong>2 Comments</strong></p>
-        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
+          vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
       </div>
 
       <div class="second">
         <img class="second_img" src="/src/assets/img/post_feat_img_24-320x202.jpg" alt="">
         <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
         <p class="date_comments">October 11th, 2015 | Comments Off</p>
-        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
+          vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
       </div>
 
       <div class="third">
         <img class="third" src="/src/assets/img/post_feat_img_23-320x202.jpg" alt="">
         <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
         <p class="date_comments">October 11th, 2015 | Comments Off</p>
-        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
+          vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
       </div>
     </div>
 
@@ -76,48 +80,97 @@
       <div class="featured_text">
         <p>FEATURED ARTICLE</p>
         <strong>Cras malesuada et orci eget pharetra</strong>
-        <p>In quis lectus sed leo elementum facibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed blandit dui, dolor at bibendum sadips ets ipsums dolores ficilis uns leo lectus.</p>
+        <p>In quis lectus sed leo elementum facibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed
+          blandit dui, dolor at bibendum sadips ets ipsums dolores ficilis uns leo lectus.</p>
         <button class="read_more" type="button">READ MORE ></button>
       </div>
     </div>
 
-    <div class="second_card">
-      <div class="card">
-          <div class="first">
-            <img class="first_img" src="/src/assets/img/post_feat_img_22-320x202.jpg" alt="">
-            <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
-            <p class="date_comments">October 11th, 2015 | Comments Off</p>
-            <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-          </div>
-    
-          <div class="second">
-            <img class="second_img" src="/src/assets/img/post_feat_img_21-320x202.jpg" alt="">
-            <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
-            <p class="date_comments">October 11th, 2015 | Comments Off</p>
-            <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-          </div>
-    
-          <div class="third">
-            <img class="third" src="/src/assets/img/post_feat_img_20-320x202.jpg" alt="">
-            <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
-            <p class="date_comments">October 11th, 2015 | Comments Off</p>
-            <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
-          </div>
-        </div>
+    <div class="card">
+      <div class="first">
+        <img class="first_img" src="/src/assets/img/post_feat_img_22-320x202.jpg" alt="">
+        <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <p class="date_comments">October 11th, 2015 | Comments Off</p>
+        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
+          vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+      </div>
+
+      <div class="second">
+        <img class="second_img" src="/src/assets/img/post_feat_img_21-320x202.jpg" alt="">
+        <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <p class="date_comments">October 11th, 2015 | Comments Off</p>
+        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
+          vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+      </div>
+
+      <div class="third">
+        <img class="third" src="/src/assets/img/post_feat_img_20-320x202.jpg" alt="">
+        <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <p class="date_comments">October 11th, 2015 | Comments Off</p>
+        <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla,
+          vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+      </div>
+
     </div>
 
   </div>
 
+  <div class="reviewed">
+    <div class="reviewed_product">
+      <div class="reviewed_text">
+        <p>REVIEWED PRODUCT</p>
+        <strong>Mauris viverra atisan ipsum eget felis prims efficitur varius</strong>
+        <p>In quis lectus sed leo elementum facibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis, sed
+          blandit dui, dolor at bibendum sadips ets ipsums dolores ficilis uns leo lectus.</p>
+        <button class="read_more" type="button">READ MORE ></button>
+      </div>
+
+    </div>
+
+    <div class="tutorial">
+      <strong>Tutorials & Guides</strong>
+      <hr>
+
+      <div class="little_cards">
+        <img src="/src/assets/img/post_feat_img_23-177x142.jpg" alt="">
+        <div class="cards_text">
+          <strong>Donec ornare pretium eget scelique justo</strong>
+          <p class="date_comments">October 11th, 2015 | Comments Off</p>
+        </div>
+      </div>
+
+      <div class="little_cards">
+        <img src="/src/assets/img/post_feat_img_22-177x142.jpg" alt="">
+        <div class="cards_text">
+          <strong>Donec ornare pretium eget scelique justo</strong>
+          <p class="date_comments">October 11th, 2015 | Comments Off</p>
+        </div>
+      </div>
+
+      <div class="little_cards">
+        <img src="/src/assets/img/post_feat_img_20-177x142.jpg" alt="">
+        <div class="cards_text">
+          <strong>Donec ornare pretium eget scelique justo</strong>
+          <p class="date_comments">October 11th, 2015 | Comments Off</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="blog">
+    <a href="#">READ OUR BLOG <i class="fa-solid fa-arrow-right"></i></a>
+  </div>
 
 </template>
 
 <style>
 /* Color Palette */
-*{
+* {
   margin: 0;
   padding: 0;
 }
-:root{
+
+:root {
   --bool-bg-header: #28AFC3;
   --bool-bg-main-container: #FFFFFF;
   --bool-text-btn: #191919;
@@ -130,47 +183,52 @@
 }
 
 /* Header Section */
-.header{
+.header {
   background-color: var(--bool-bg-header);
   align-items: center;
   display: flex;
   justify-content: space-around;
   padding: 1rem;
-  
-  .utilities{
-      display: flex;
-      color: var(--bool-white);
-      gap: 2rem;
-      align-items: center;
 
-      .header_btn{
-        background-color: var(--bool-text-btn);
-        color: var(--bool-white);
-        border: none;
-        padding: 0.5rem;
-      }
+  .utilities {
+    display: flex;
+    color: var(--bool-white);
+    gap: 2rem;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: var(--bool-white);
     }
+
+    .header_btn {
+      background-color: var(--bool-text-btn);
+      color: var(--bool-white);
+      border: none;
+      padding: 0.5rem;
+    }
+  }
 }
 
 /* Main 1st Section */
-.main{
+.main {
   background-image: url("../src/assets/img/home_slider_bg.jpg");
   height: 870px;
 
-  .main_container{
+  .main_container {
     padding: 15rem;
     color: var(--bool-white);
 
-    .main_text{
+    .main_text {
       gap: 2rem;
       display: flex;
       flex-direction: column;
 
-      h2{
-       font-size: 100px; 
+      h2 {
+        font-size: 100px;
       }
 
-      .get_sign{
+      .get_sign {
         width: 150px;
         padding: 0.5rem;
         background-color: var(--bool-bg-header);
@@ -181,11 +239,11 @@
   }
 }
 
-#main_container{
+#main_container {
   height: 250px;
   background-color: var(--bool-text-primary);
 
-  #main_text{
+  #main_text {
     padding: 5rem;
     text-align: center;
     align-items: center;
@@ -193,61 +251,51 @@
     flex-direction: column;
     gap: 1.5rem;
 
-    h4{
+    h4 {
       color: var(--bool-first-section-title);
     }
 
-    #title_text{
+    #title_text {
       color: var(--bool-first-section-text);
       width: 380px;
     }
-    
+
   }
 }
 
 /* Main 2nd Section */
-.latest_news{
+.latest_news {
   padding: 5rem;
   text-align: center;
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 3rem;
 
-  #eget{
+  #eget {
     color: var(--bool-first-section-title);
     font-size: 13px;
   }
 
-  #latest_title{
+  #latest_title {
     font-size: 30px;
   }
 
-  hr{
-    color: orange;
-    width: 50px;
-  }
-
-  .card{
+  .card {
     width: 1700px;
     display: flex;
     justify-content: center;
     gap: 2rem;
 
-    .first, .second, .third{
+    .first,
+    .second,
+    .third {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       gap: 0.5rem;
-  
-      .date_comments{
-        color: var(--bool-first-section-text);
-        strong{
-          color: black;
-        }
-      }
 
-      .img_text{
+      .img_text {
         text-align: left;
         width: 320px;
         color: var(--bool-first-section-text);
@@ -257,39 +305,116 @@
   }
 }
 
-.featured_article{
+hr {
+  color: orange;
+  width: 50px;
+}
+
+.date_comments {
+  color: var(--bool-first-section-text);
+
+  strong {
+    color: black;
+  }
+}
+
+.featured_article {
   background-image: url("../src/assets/img/featured_article_1_bg.jpg");
   background-size: 100%;
   max-width: 1025px;
   height: 500px;
 
-  .featured_text{
+  .featured_text {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 1.5rem;
-    padding: 13rem 5rem; 
+    padding: 13rem 5rem;
 
-    p{
-      color: white;
-      text-align: left;
-    }
-  
-    strong{
+    strong {
       color: var(--bool-white);
       font-size: 25px;
     }
-  
-    .read_more{
-      background-color: var(--bool-text-btn);
+
+  }
+}
+
+p {
+  color: white;
+  text-align: left;
+}
+
+.read_more {
+  background-color: var(--bool-text-btn);
+  color: var(--bool-white);
+  border: none;
+  padding: 1rem;
+}
+
+.reviewed {
+  display: flex;
+  gap: 3rem;
+}
+
+.reviewed_product {
+  background-image: url("../src/assets/img/featured_article_2_bg.jpg");
+  background-size: 100%;
+  width: 600px;
+  height: 400px;
+  margin-left: 26rem;
+
+  .reviewed_text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 6rem 5rem;
+
+    strong {
       color: var(--bool-white);
-      border: none;
-      padding: 1rem;
+      font-size: 25px;
     }
   }
 }
 
-.second_card{
-  margin: 3rem;
+.tutorial {
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .little_cards {
+    display: flex;
+    gap: 1rem;
+
+    img {
+      height: 100px;
+    }
+
+    .cards_text {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+
+      strong {
+        width: 180px;
+      }
+    }
+  }
+}
+
+.blog {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  height: 75px;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+
+  a {
+    text-decoration: none;
+    color: var(--bool-white);
+  }
 }
 </style>
