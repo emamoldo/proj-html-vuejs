@@ -80,7 +80,35 @@
         <button class="read_more" type="button">READ MORE ></button>
       </div>
     </div>
+
+    <div class="second_card">
+      <div class="card">
+          <div class="first">
+            <img class="first_img" src="/src/assets/img/post_feat_img_22-320x202.jpg" alt="">
+            <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+            <p class="date_comments">October 11th, 2015 | Comments Off</p>
+            <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+          </div>
+    
+          <div class="second">
+            <img class="second_img" src="/src/assets/img/post_feat_img_21-320x202.jpg" alt="">
+            <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+            <p class="date_comments">October 11th, 2015 | Comments Off</p>
+            <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+          </div>
+    
+          <div class="third">
+            <img class="third" src="/src/assets/img/post_feat_img_20-320x202.jpg" alt="">
+            <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+            <p class="date_comments">October 11th, 2015 | Comments Off</p>
+            <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p>
+          </div>
+        </div>
+    </div>
+
   </div>
+
+
 </template>
 
 <style>
@@ -232,7 +260,7 @@
 .featured_article{
   background-image: url("../src/assets/img/featured_article_1_bg.jpg");
   background-size: 100%;
-  max-width: 1040px;
+  max-width: 1025px;
   height: 500px;
 
   .featured_text{
@@ -259,5 +287,9 @@
       padding: 1rem;
     }
   }
+}
+
+.second_card{
+  margin: 3rem;
 }
 </style>
