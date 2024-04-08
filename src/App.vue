@@ -234,6 +234,54 @@
       <button type="button">SEND</button>
     </div>
   </div>
+
+  <div class="about">
+    <div class="container">
+      <div class="about_section">
+        <strong>AVADA TECH FORUM</strong>
+        <p>Sed semper, nisl id feugiat eleifend, erat est digssin felis, quis auctor elit enim nec ante. Cras et nibh
+          risus. Pellentesque non mi sit amet mi intermentum.</p>
+      </div>
+
+      <div class="about_section">
+        <strong>POPULAR TOPICS</strong>
+        <p><i class="fa-solid fa-angle-right"></i> Nam a dolor volutpat massa auctor semper </p>
+        <p><i class="fa-solid fa-angle-right"></i> Sed eusmod nusc urna fermentum arcu dapibus fringilla. </p>
+        <p><i class="fa-solid fa-angle-right"></i> Cras lacinia tellus id mauris finibus iacus molestie </p>
+        <p><i class="fa-solid fa-angle-right"></i> Curabitur a scelerisque ligula</p>
+      </div>
+
+      <div class="about_section">
+        <strong>RECENT TOPICS</strong>
+        <p><i class="fa-solid fa-angle-right"></i> Cras lacinia tellus id mauris finibus iacus molestie </p>
+        <p><i class="fa-solid fa-angle-right"></i> Proin at ligula sagittis vestibulum nusu vitae </p>
+        <p><i class="fa-solid fa-angle-right"></i> Sed nec metus at est tincidont elementum </p>
+        <p><i class="fa-solid fa-angle-right"></i> Nulla egestas nulla eu nulla suscipit molestie</p>
+      </div>
+
+      <div class="about_section">
+        <strong>LATEST REPLIES</strong>
+        <p><i class="fa-solid fa-angle-right"></i> Cras lacinia tellus id mauris finibus iacus molestie </p>
+        <p><i class="fa-solid fa-angle-right"></i> Cras lacinia tellus id mauris finibus iacus molestie </p>
+        <p><i class="fa-solid fa-angle-right"></i> Nulla egestas nulla eu nulla suscipit molestie </p>
+        <p><i class="fa-solid fa-angle-right"></i> Mauris ac nibh quis eros sagittis lacinia a et dui</p>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <hr>
+
+  <div class="copy">
+    <p><i class="fa-regular fa-copyright"></i> Copyright 2012 - 2020 | Avada Theme by <strong>Theme Fusion</strong> |
+      All Rights Reserved | Powered by <strong>WordPress</strong></p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
 </template>
 
 <style>
@@ -606,5 +654,46 @@ p {
   }
 
 
+}
+
+.about {
+  .container {
+    margin-top: 5rem;
+    margin-left: 24rem;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+
+    .about_section {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 250px;
+
+      p {
+        color: black;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid var(--bool-darker);
+      }
+    }
+  }
+}
+
+.copy {
+  margin-top: 2rem;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+  .icons {
+    display: flex;
+    gap: 2rem;
+  }
+
+  p {
+    color: black;
+  }
 }
 </style>
