@@ -38,10 +38,41 @@
 
   <div id="main_container">
     <div id="main_text">
-      <h3>AVADA FORUM IS THE PLACE TO BE</h3>
+      <h4>AVADA FORUM IS THE PLACE TO BE</h4>
       <p id="title_text">In quis lectus leo elementum faucibus in depibus dictum. Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus, dolor at, bibendum purus. Donec vehicula nec tortor ac finibus.</p>
     </div>
   </div>
+
+  <!-- Main 2nd Section -->
+  <div class="latest_news">
+    <p id="eget">PHASELLUS EGET METUS</p>
+    <strong id="latest_title">All the latest news</strong>
+    <hr>
+
+    <div class="card">
+      <div class="first">
+        <img class="first_img" src="/src/assets/img/post_feat_img_25-320x202.jpg" alt="">
+        <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <p class="date_comments">October 11th, 2015 | 2 Comments</p>
+        <!-- <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p> -->
+      </div>
+
+      <div class="second">
+        <img class="second_img" src="/src/assets/img/post_feat_img_24-320x202.jpg" alt="">
+        <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <p class="date_comments">October 11th, 2015 | Comments Off</p>
+        <!-- <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p> -->
+      </div>
+
+      <div class="third">
+        <img class="third" src="/src/assets/img/post_feat_img_23-320x202.jpg" alt="">
+        <strong class="img_title">Morbi vitae dui euismod vulputate sollicitudin</strong>
+        <p class="date_comments">October 11th, 2015 | Comments Off</p>
+        <!-- <p class="img_text">Donec finibus sit amet orci eger ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl</p> -->
+      </div>
+    </div>
+  </div>
+
 
 </template>
 
@@ -126,7 +157,7 @@
     flex-direction: column;
     gap: 1.5rem;
 
-    h3{
+    h4{
       color: var(--bool-first-section-title);
     }
 
@@ -135,6 +166,49 @@
       text-wrap: balance;
     }
     
+  }
+}
+
+/* Main 2nd Section */
+.latest_news{
+  padding: 5rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  #eget{
+    color: var(--bool-first-section-title);
+    font-size: 13px;
+  }
+
+  #latest_title{
+    font-size: 30px;
+  }
+
+  hr{
+    color: orange;
+    width: 50px;
+  }
+
+  .card{
+    width: 1700px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    .first, .second, .third{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+  
+      .img_text{
+        text-wrap: wrap;
+      }
+    }
+
   }
 }
 </style>
