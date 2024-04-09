@@ -282,10 +282,10 @@
     <p><i class="fa-regular fa-copyright"></i> Copyright 2012 - 2020 | Avada Theme by <strong>Theme Fusion</strong> |
       All Rights Reserved | Powered by <strong>WordPress</strong></p>
     <div class="icons">
-      <i class="fa-brands fa-facebook-f"></i>
-      <i class="fa-brands fa-twitter"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-youtube"></i>
+      <i class="facebook fa-brands fa-facebook-f"></i>
+      <i class="twitter fa-brands fa-twitter"></i>
+      <i class="instagram fa-brands fa-instagram"></i>
+      <i class="youtube fa-brands fa-youtube"></i>
     </div>
   </div>
 </template>
@@ -307,6 +307,13 @@
   --bool-first-section-title: #565656;
   --bool-first-section-text: #a3a3a3;
   --bool-white: #FFFFFF;
+  --bool-black: #000000;
+  --bool-orange: #FFA500;
+  --bool-facebook: #3c5998;
+  --bool-twitter: #54acee;
+  --bool-instagram: #3f729b;
+  --bool-youtube: #cd201f;
+  --bool-forum-border: #28AFC3;
 }
 
 /* Header Section */
@@ -437,7 +444,7 @@
 
 #eget {
   /* color: var(--bool-first-section-title); */
-  color: black;
+  color: var(--bool-black);
   font-size: 13px;
 }
 
@@ -446,7 +453,7 @@
   color: var(--bool-first-section-text);
 
   strong {
-    color: black;
+    color: var(--bool-black);
   }
 }
 
@@ -473,7 +480,7 @@
 }
 
 p {
-  color: white;
+  color: var(--bool-white);
   text-align: left;
 }
 
@@ -546,7 +553,7 @@ p {
   height: 75px;
   justify-content: center;
   text-align: center;
-  background-color: black;
+  background-color: var(--bool-black);
 
   a {
     text-decoration: none;
@@ -565,7 +572,7 @@ p {
   gap: 1.5rem;
 
   strong {
-    border-bottom: 3px solid orange;
+    border-bottom: 3px solid var(--bool-orange);
   }
 }
 
@@ -579,7 +586,7 @@ p {
   .sections_card {
     height: 120px;
     width: 150px;
-    border-top: 2px solid #28AFC3;
+    border-top: 2px solid var(--bool-forum-border);
     background-color: var(--bool-white);
     display: flex;
     flex-direction: column;
@@ -588,10 +595,14 @@ p {
     gap: 1rem;
 
     i {
-      /* color: var(--bool-white); */
-      font-size: 25px;
-      border: 1px solid orange;
+      height: 30px;
+      width: 30px;
+      display: flex;
       border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      color: var(--bool-white);
+      background-color: var(--bool-orange);
     }
 
     strong {
@@ -607,7 +618,7 @@ p {
   height: 75px;
   justify-content: center;
   text-align: center;
-  background-color: black;
+  background-color: var(--bool-black);
 
   a {
     text-decoration: none;
@@ -653,7 +664,7 @@ p {
 
   p {
     margin-top: 2rem;
-    color: black;
+    color: var(--bool-black);
     font-size: 20px;
   }
 
@@ -669,7 +680,7 @@ p {
     button {
       width: 150px;
       padding: 0.5rem;
-      background-color: black;
+      background-color: var(--bool-black);
       color: var(--bool-white);
       border: none;
     }
@@ -716,6 +727,35 @@ p {
   .icons {
     display: flex;
     gap: 2rem;
+
+    .facebook,
+    .twitter,
+    .instagram,
+    .youtube {
+      height: 30px;
+      width: 30px;
+      display: flex;
+      border-radius: 50%;
+      justify-content: center;
+      align-items: center;
+      color: var(--bool-white);
+    }
+
+    .facebook {
+      background-color: var(--bool-facebook);
+    }
+
+    .twitter {
+      background-color: var(--bool-twitter);
+    }
+
+    .instagram {
+      background-color: var(--bool-instagram);
+    }
+
+    .youtube {
+      background-color: var(--bool-youtube);
+    }
   }
 
   p {
